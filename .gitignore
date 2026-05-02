@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Generated/debug exports
+dynamic_page.html
+static_page.html
+output.csv
+rohit_sharma_stats.csv
+*.xlsx
+*.pdf
+*.zip
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
