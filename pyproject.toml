@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ipl-auction-sim"
+version = "0.1.0"
+description = "Mock IPL auction simulator using ESPNcricinfo impact data."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.2",
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    "pdfplumber>=0.11",
+]
+
+[project.scripts]
+ipl-build-ratings = "ipl_auction_sim.impact_points:main"
+ipl-simulate-auction = "ipl_auction_sim.simulator:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
