@@ -1,6 +1,6 @@
 # IPL Auction Simulator
 
-A portfolio-ready mock IPL auction project. It combines IPL auction pool data with ESPNcricinfo impact tables, downweights older seasons, and runs a simple demand-based auction simulation across IPL teams.
+A mock IPL auction project. It combines IPL auction pool data with ESPNcricinfo impact tables, downweights older seasons, and runs a simple demand-based auction simulation across IPL teams.
 
 ## What It Does
 
@@ -77,4 +77,4 @@ data/processed/simulated_auction_results.csv
 
 ## Notes
 
-This began as a work-in-progress exploratory project. The cleaned version keeps the useful data pipeline and adds enough structure for future modelling work, such as team-specific roster inputs, more realistic bidding curves, and live auction state.
+This is still a work-in-progress exploratory project. 
